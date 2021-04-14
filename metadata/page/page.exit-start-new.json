@@ -1,8 +1,16 @@
 {
   "_id": "page.exit-start-new",
   "_type": "page.exit",
-  "body": "link to OCMC start page",
+  "body": "Find out [how to make a money claim](https://www.gov.uk/make-money-claim), including whether you're eligible.",
+  "components": [
+    {
+      "_id": "page.exit-start-new--inset",
+      "_type": "inset",
+      "html": "Before making a claim, contact the person or organisation to try to [resolve the issue by discussion or mediation](https://civilmediation.org/for-the-public/about-mediation/)."
+    }
+  ],
   "heading": "How to start a new money claim",
+  "lede": "You can make a money claim if you think a person or organisation owes you money and will not pay you back. You’ll have to [pay a fee](https://www.gov.uk/make-court-claim-for-money/court-fees).  ",
   "show": {
     "identifier": "NewOrExistingClaim",
     "operator": "is",
