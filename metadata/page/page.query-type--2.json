@@ -43,8 +43,8 @@
           "value": "defendant-other"
         }
       ],
-      "legend": "What do you need to ask about?",
-      "name": "QueryType",
+      "legend": "What do you need to ask about the claim made against you?",
+      "name": "QueryTypeDefendant",
       "show": {
         "conditionsType": "exactly",
         "exactly": [
@@ -109,7 +109,7 @@
         }
       ],
       "legend": "What do you need to ask about?",
-      "name": "QueryType"
+      "name": "QueryTypeClaimant"
     }
   ],
   "heading": "About your query",

@@ -1,0 +1,23 @@
+{
+  "_id": "page.exit-mediation",
+  "_type": "page.exit",
+  "body": "Contact the mediation team if you:\r\n\r\n* requested mediation more than 2 weeks ago but haven't heard back\r\n* need to reschedule or cancel a mediation appointment\r\n\r\n**Mediation team**\r\n\r\n* Email: scmenquiries@justice.gov.uk\r\n* Telephone: 0300 123 4593 (Monday to Friday, 9am to 5pm)\r\n\r\n",
+  "heading": "Mediation for money claims",
+  "lede": "Mediation is a process where an impartial person (the mediator) helps two or more people, or groups of people, to discuss and resolve disputes.",
+  "show": {
+    "conditionsType": "exactly",
+    "exactly": [
+      {
+        "identifier": "QueryTypeClaimant",
+        "operator": "is",
+        "value": "mediation-with-defendant"
+      },
+      {
+        "identifier": "QueryTypeDefendant",
+        "operator": "is",
+        "value": "mediation-with-claimant"
+      }
+    ]
+  },
+  "url": "exit-mediation"
+}

@@ -53,12 +53,12 @@
     "conditionsType": "exactly",
     "exactly": [
       {
-        "identifier": "QueryType",
+        "identifier": "QueryTypeDefendant",
         "operator": "is",
         "value": "progress-update"
       },
       {
-        "identifier": "QueryType",
+        "identifier": "QueryTypeDefendant",
         "operator": "is",
         "value": "how-to-respond"
       }
