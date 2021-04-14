@@ -1,0 +1,29 @@
+{
+  "_id": "page.service-type",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.service-type--radios.auto_name__1",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.service-type--radios.auto_name__1--radio.auto_value__1",
+          "_type": "radio",
+          "hint": "For example, because you are owed money or responding to a money claim against you",
+          "label": "A court claim for money",
+          "value": "money-claim"
+        },
+        {
+          "_id": "page.service-type--radios.auto_name__1--radio.auto_value__2",
+          "_type": "radio",
+          "hint": "For example, applying for divorce or a grant of probate",
+          "label": "Another court or tribunal service",
+          "value": "other-query"
+        }
+      ],
+      "legend": "What do you need help with?",
+      "name": "ServiceType"
+    }
+  ],
+  "url": "service-type"
+}

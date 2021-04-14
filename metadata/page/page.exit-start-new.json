@@ -1,0 +1,12 @@
+{
+  "_id": "page.exit-start-new",
+  "_type": "page.exit",
+  "body": "link to OCMC start page",
+  "heading": "How to start a new money claim",
+  "show": {
+    "identifier": "NewOrExistingClaim",
+    "operator": "is",
+    "value": "existing-claim"
+  },
+  "url": "exit-start-new"
+}

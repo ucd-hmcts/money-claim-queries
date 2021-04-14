@@ -1,0 +1,66 @@
+{
+  "_id": "page.query-type-defendant",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.query-type-defendant--radios.auto_name__4",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.query-type-defendant--radios.auto_name__4--radio.auto_value__8",
+          "_type": "radio",
+          "label": "How to respond to a claim made against me",
+          "value": "auto_value__8"
+        },
+        {
+          "_id": "page.query-type-defendant--radios.auto_name__4--radio.auto_value__9",
+          "_type": "radio",
+          "label": "Mediation with the person who made the claim",
+          "value": "auto_value__9"
+        },
+        {
+          "_id": "page.query-type-defendant--radios.auto_name__4--radio.auto_value__10",
+          "_type": "radio",
+          "label": "How to pay a claim made against me",
+          "value": "auto_value__10"
+        },
+        {
+          "_id": "page.query-type-defendant--radios.auto_name__4--radio.auto_value__11",
+          "_type": "radio",
+          "label": "A court hearing I've been asked to attend",
+          "value": "auto_value__11"
+        },
+        {
+          "_id": "page.query-type-defendant--radios.auto_name__4--radio.auto_value__12",
+          "_type": "radio",
+          "label": "A county court judgment I've received",
+          "value": "auto_value__12"
+        },
+        {
+          "_id": "page.query-type-defendant--radios.auto_name__4--radio.auto_value__13",
+          "_type": "radio",
+          "label": "Other",
+          "value": "auto_value__13"
+        }
+      ],
+      "legend": "What is your query about?",
+      "name": "auto_name__4"
+    }
+  ],
+  "show": {
+    "conditionsType": "exactly",
+    "exactly": [
+      {
+        "identifier": "ApplicantType",
+        "operator": "is",
+        "value": "defendant"
+      },
+      {
+        "identifier": "ApplicantType",
+        "operator": "is",
+        "value": "representing-defendant"
+      }
+    ]
+  },
+  "url": "query-type-defendant"
+}

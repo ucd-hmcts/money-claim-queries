@@ -1,0 +1,14 @@
+{
+  "_id": "page.query-content",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.query-content--textarea.auto_name__9",
+      "_type": "textarea",
+      "hint": "Give as much detail as you can, for example dates of any correspondence you've received from us",
+      "label": "Your query",
+      "name": "MessageContent"
+    }
+  ],
+  "url": "query-content"
+}

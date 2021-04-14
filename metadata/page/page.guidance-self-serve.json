@@ -1,0 +1,68 @@
+{
+  "_id": "page.guidance-self-serve",
+  "_type": "page.content",
+  "components": [
+    {
+      "_id": "page.guidance-self-serve--content",
+      "_type": "content",
+      "html": "# How to get an update on progress\r\n\r\nTo get an update on your claim or progress it, [sign in to the 'Money claims' service](https://www.moneyclaims.service.gov.uk) using your email address and the password you created when you created your account.\r\n\r\nYou can [request a new password](https://hmcts-access.service.gov.uk/reset/forgotpassword) if you need to.",
+      "show": {
+        "conditionsType": "exactly",
+        "exactly": [
+          {
+            "identifier": "ApplicantType",
+            "operator": "is",
+            "value": "claimant"
+          },
+          {
+            "identifier": "ApplicantType",
+            "operator": "is",
+            "value": "representing-claimant"
+          }
+        ]
+      }
+    },
+    {
+      "_id": "page.guidance-self-serve--content--2",
+      "_type": "content",
+      "html": "# How to respond to a money claim made against you\r\n\r\n**If you choose not to challenge the claim**\r\n\r\nYou should pay the full amount directly to the person who made the claim. You don't need to use the 'Money claims' service to do this.\r\n\r\n**If you want to challenge the claim**\r\n\r\n[Sign in to the 'Money claims' service](https://www.gov.uk/respond-money-claim) to:\r\n\r\n* ask for more time to respond\r\n* offer to pay a lesser amount\r\n* dispute some or all of the claim\r\n* dispute the claim and make a counter-claim\r\n\r\nYou'll need your claim number and security code from the notice you received. You may also have to pay a fee. ",
+      "show": {
+        "conditionsType": "exactly",
+        "exactly": [
+          {
+            "identifier": "ApplicantType",
+            "operator": "is",
+            "value": "defendant"
+          },
+          {
+            "identifier": "ApplicantType",
+            "operator": "is",
+            "value": "representing-defendant"
+          }
+        ]
+      }
+    },
+    {
+      "_id": "page.guidance-self-serve--content--3",
+      "_type": "content",
+      "html": "If this doesn't answer your query, you should continue and submit the form."
+    }
+  ],
+  "heading": "Guidance on money claims",
+  "show": {
+    "conditionsType": "exactly",
+    "exactly": [
+      {
+        "identifier": "QueryType",
+        "operator": "is",
+        "value": "progress-update"
+      },
+      {
+        "identifier": "QueryType",
+        "operator": "is",
+        "value": "how-to-respond"
+      }
+    ]
+  },
+  "url": "self-serve-guidance"
+}

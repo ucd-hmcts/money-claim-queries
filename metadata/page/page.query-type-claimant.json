@@ -1,0 +1,77 @@
+{
+  "_id": "page.query-type-claimant",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.query-type-claimant--radios.auto_name__5",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.query-type-claimant--radios.auto_name__5--radio.auto_value__14",
+          "_type": "radio",
+          "label": "I need a progress update on my case",
+          "value": "auto_value__14"
+        },
+        {
+          "_id": "page.query-type-claimant--radios.auto_name__5--radio.auto_value__15",
+          "_type": "radio",
+          "label": "I need to change my claim",
+          "value": "auto_value__15"
+        },
+        {
+          "_id": "page.query-type-claimant--radios.auto_name__5--radio.auto_value__16",
+          "_type": "radio",
+          "label": "Mediation with the person or organisation that owes me money",
+          "value": "auto_value__16"
+        },
+        {
+          "_id": "page.query-type-claimant--radios.auto_name__5--radio.auto_value__17",
+          "_type": "radio",
+          "label": "The person or organisation who owes me money has paid in full",
+          "value": "auto_value__17"
+        },
+        {
+          "_id": "page.query-type-claimant--radios.auto_name__5--radio.auto_value__18",
+          "_type": "radio",
+          "label": "The person or organisation that owes me money hasn't paid",
+          "value": "auto_value__18"
+        },
+        {
+          "_id": "page.query-type-claimant--radios.auto_name__5--radio.auto_value__19",
+          "_type": "radio",
+          "label": "A court hearing I've been asked to attend",
+          "value": "auto_value__19"
+        },
+        {
+          "_id": "page.query-type-claimant--radios.auto_name__5--radio.auto_value__20",
+          "_type": "radio",
+          "label": "Other",
+          "value": "auto_value__20"
+        }
+      ],
+      "legend": "What is your query about?",
+      "name": "auto_name__5"
+    }
+  ],
+  "show": {
+    "conditionsType": "exactly",
+    "exactly": [
+      {
+        "0": {
+          "identifier": "ApplicantType",
+          "operator": "is",
+          "value": "claimant"
+        },
+        "identifier": "ApplicantType",
+        "operator": "is",
+        "value": "representing-claimant"
+      },
+      {
+        "identifier": "ApplicantType",
+        "operator": "is",
+        "value": "claimant"
+      }
+    ]
+  },
+  "url": "query-type-claimant"
+}

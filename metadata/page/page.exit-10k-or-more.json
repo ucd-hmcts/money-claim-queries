@@ -1,0 +1,13 @@
+{
+  "_id": "page.exit-10k-or-more",
+  "_type": "page.exit",
+  "body": "**For claims between £10,000 and £100,000**\r\n\r\nTelephone 0300 123 1057, Monday to Friday, 8:30am to 5pm\r\n\r\n**For claims over £100,000**\r\n\r\nTelephone 0300 123 1372, Monday to Friday, 8:30am to 5pm",
+  "heading": "Contact details for claims of £10,000 or more",
+  "lede": "You can't use this service to contact HMCTS about a money claim of £10,000 or more. Instead, call one of the numbers below.",
+  "show": {
+    "identifier": "ClaimValue",
+    "operator": "is",
+    "value": "value-more-than-10k"
+  },
+  "url": "exit-10k-or-more"
+}

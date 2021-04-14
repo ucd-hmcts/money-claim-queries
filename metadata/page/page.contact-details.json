@@ -1,0 +1,127 @@
+{
+  "_id": "page.contact-details",
+  "_type": "page.form",
+  "components": [
+    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$fieldset": true,
+      "$grouping": true,
+      "_id": "page.contact-details--fieldset",
+      "_type": "fieldset",
+      "components": [
+        {
+          "$component": true,
+          "$control": true,
+          "$definition": true,
+          "$field": true,
+          "_id": "page.contact-details--fieldset--text.auto_name__11",
+          "_type": "text",
+          "label": "First name",
+          "name": "ApplicantFirstName"
+        },
+        {
+          "$component": true,
+          "$control": true,
+          "$definition": true,
+          "$field": true,
+          "_id": "page.contact-details--fieldset--text.auto_name__10",
+          "_type": "text",
+          "label": "Last name",
+          "name": "ApplicantLastName"
+        },
+        {
+          "$component": true,
+          "$control": true,
+          "$definition": true,
+          "$field": true,
+          "_id": "page.contact-details--fieldset--email.auto_name__12",
+          "_type": "email",
+          "hint": "We'll only use this to contact you about your query",
+          "label": "Your email",
+          "name": "ContactEmail"
+        },
+        {
+          "$component": true,
+          "$control": true,
+          "$definition": true,
+          "$field": true,
+          "_id": "page.contact-details--fieldset--number.auto_name__13",
+          "_type": "number",
+          "hint": "We may be able to resolve your query more quickly if we can call you",
+          "label": "Phone number (optional)",
+          "name": "ContactPhone",
+          "validation": {
+            "required": false
+          }
+        },
+        {
+          "_id": "page.contact-details--fieldset--text.auto_name__17",
+          "_type": "text",
+          "label": "Company name (optional)",
+          "name": "CompanyName",
+          "show": {
+            "conditionsType": "exactly",
+            "exactly": [
+              {
+                "identifier": "ApplicantType",
+                "operator": "is",
+                "value": "representing-claimant"
+              },
+              {
+                "identifier": "ApplicantType",
+                "operator": "is",
+                "value": "representing-defendant"
+              }
+            ]
+          }
+        }
+      ],
+      "legend": "Your contact details"
+    },
+    {
+      "_id": "page.contact-details--fieldset--2",
+      "_type": "fieldset",
+      "components": [
+        {
+          "_id": "page.contact-details--fieldset--2--text.auto_name__14",
+          "_type": "text",
+          "label": "Client's first name",
+          "name": "ClientFirstName"
+        },
+        {
+          "_id": "page.contact-details--fieldset--2--text.auto_name__15",
+          "_type": "text",
+          "label": "Client's last name",
+          "name": "ClientLastName"
+        },
+        {
+          "_id": "page.contact-details--fieldset--2--text.auto_name__16",
+          "_type": "text",
+          "hint": "We'll only use this information to match your query to your client's case",
+          "label": "Client's postcode",
+          "name": "ClientPostcode"
+        }
+      ],
+      "legend": "Your client's details",
+      "show": {
+        "conditionsType": "exactly",
+        "exactly": [
+          {
+            "identifier": "ApplicantType",
+            "operator": "is",
+            "value": "representing-claimant"
+          },
+          {
+            "identifier": "ApplicantType",
+            "operator": "is",
+            "value": "representing-defendant"
+          }
+        ]
+      }
+    }
+  ],
+  "heading": "Your contact details",
+  "url": "contact-details"
+}

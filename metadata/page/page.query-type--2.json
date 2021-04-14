@@ -1,0 +1,117 @@
+{
+  "_id": "page.query-type--2",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.query-type--2--radios.auto_name__8",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.query-type--2--radios.auto_name__8--radio.auto_value__8",
+          "_type": "radio",
+          "label": "How to respond to a money claim",
+          "value": "how-to-respond"
+        },
+        {
+          "_id": "page.query-type--2--radios.auto_name__8--radio.auto_value__8--2",
+          "_type": "radio",
+          "label": "Mediation with the person who made the claim",
+          "value": "mediation-with-claimant"
+        },
+        {
+          "_id": "page.query-type--2--radios.auto_name__8--radio.auto_value__8--3",
+          "_type": "radio",
+          "label": "How to pay a claim, in full or in part",
+          "value": "how-to-pay"
+        },
+        {
+          "_id": "page.query-type--2--radios.auto_name__8--radio.auto_value__8--4",
+          "_type": "radio",
+          "label": "A court hearing",
+          "value": "defendant-court-hearing"
+        },
+        {
+          "_id": "page.query-type--2--radios.auto_name__8--radio.auto_value__8--5",
+          "_type": "radio",
+          "label": "A county court judgement",
+          "value": "court-judgement"
+        },
+        {
+          "_id": "page.query-type--2--radios.auto_name__8--radio.auto_value__8--6",
+          "_type": "radio",
+          "label": "Other",
+          "value": "defendant-other"
+        }
+      ],
+      "legend": "What do you need to ask about?",
+      "name": "QueryType",
+      "show": {
+        "conditionsType": "exactly",
+        "exactly": [
+          {
+            "identifier": "ApplicantType",
+            "operator": "is",
+            "value": "defendant"
+          },
+          {
+            "identifier": "ApplicantType",
+            "operator": "is",
+            "value": "representing-defendant"
+          }
+        ]
+      }
+    },
+    {
+      "_id": "page.query-type--2--radios.auto_name__18",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.query-type--2--radios.auto_name__18--radio.auto_value__8",
+          "_type": "radio",
+          "label": "A progress update on my case",
+          "value": "progress-update"
+        },
+        {
+          "_id": "page.query-type--2--radios.auto_name__18--radio.auto_value__8--2",
+          "_type": "radio",
+          "label": "How to change a money claim",
+          "value": "change-claim"
+        },
+        {
+          "_id": "page.query-type--2--radios.auto_name__18--radio.auto_value__8--3",
+          "_type": "radio",
+          "label": "Mediation with the person or organisation that owes money",
+          "value": "mediation-with-defendant"
+        },
+        {
+          "_id": "page.query-type--2--radios.auto_name__18--radio.auto_value__8--4",
+          "_type": "radio",
+          "label": "What to do if the claim has been paid",
+          "value": "claim-paid"
+        },
+        {
+          "_id": "page.query-type--2--radios.auto_name__18--radio.auto_value__8--5",
+          "_type": "radio",
+          "label": "What to do if the person or organisation hasn't paid",
+          "value": "claim-not-paid"
+        },
+        {
+          "_id": "page.query-type--2--radios.auto_name__18--radio.auto_value__8--6",
+          "_type": "radio",
+          "label": "A court hearing",
+          "value": "claimant-court-hearing"
+        },
+        {
+          "_id": "page.query-type--2--radios.auto_name__18--radio.auto_value__8--7",
+          "_type": "radio",
+          "label": "Other",
+          "value": "claimant-other"
+        }
+      ],
+      "legend": "What do you need to ask about?",
+      "name": "QueryType"
+    }
+  ],
+  "heading": "About your query",
+  "url": "query-type"
+}

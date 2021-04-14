@@ -1,0 +1,44 @@
+{
+  "_id": "page.about-you",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.about-you--radios.auto_name__3",
+      "_type": "radios",
+      "hint": "Select the option that best describes you",
+      "items": [
+        {
+          "_id": "page.about-you--radios.auto_name__3--radio.auto_value__4",
+          "_type": "radio",
+          "hint": "You are the 'claimant'",
+          "label": "I'm claiming money I'm owed from a person or organisation",
+          "value": "claimant"
+        },
+        {
+          "_id": "page.about-you--radios.auto_name__3--radio.auto_value__5",
+          "_type": "radio",
+          "hint": "You are the 'defendant'",
+          "label": "I've received a money claim against me",
+          "value": "defendant"
+        },
+        {
+          "_id": "page.about-you--radios.auto_name__3--radio.auto_value__6",
+          "_type": "radio",
+          "hint": "For example as a legal adviser or supporter",
+          "label": "I'm representing the claimant",
+          "value": "representing-claimant"
+        },
+        {
+          "_id": "page.about-you--radios.auto_name__3--radio.auto_value__7",
+          "_type": "radio",
+          "hint": "For example as a legal adviser or supporter",
+          "label": "I'm representing the defendant",
+          "value": "representing-defendant"
+        }
+      ],
+      "legend": "About you",
+      "name": "ApplicantType"
+    }
+  ],
+  "url": "about-you"
+}

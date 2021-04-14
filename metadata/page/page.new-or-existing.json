@@ -1,0 +1,52 @@
+{
+  "_id": "page.new-or-existing",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.new-or-existing--radios.auto_name__6",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.new-or-existing--radios.auto_name__6--radio.auto_value__8",
+          "_type": "radio",
+          "conditionalComponent": {
+            "_id": "page.new-or-existing--radios.auto_name__6--radio.auto_value__8--text.auto_name__7",
+            "_type": "text",
+            "hint": "For example, OCM1234ABCD",
+            "label": "Enter your case reference number",
+            "name": "CaseReference",
+            "validation": {
+              "required": false
+            }
+          },
+          "label": "Yes",
+          "value": "existing-claim"
+        },
+        {
+          "_id": "page.new-or-existing--radios.auto_name__6--radio.auto_value__8--2",
+          "_type": "radio",
+          "label": "No",
+          "value": "new-claim"
+        }
+      ],
+      "legend": "Have you already submitted a money claim?",
+      "name": "NewOrExistingClaim"
+    }
+  ],
+  "show": {
+    "conditionsType": "exactly",
+    "exactly": [
+      {
+        "identifier": "ApplicantType",
+        "operator": "is",
+        "value": "claimant"
+      },
+      {
+        "identifier": "ApplicantType",
+        "operator": "is",
+        "value": "representing-claimant"
+      }
+    ]
+  },
+  "url": "new-or-existing"
+}

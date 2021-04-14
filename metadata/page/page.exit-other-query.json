@@ -1,0 +1,12 @@
+{
+  "_id": "page.exit-other-query",
+  "_type": "page.exit",
+  "body": "**Divorce**\r\n\r\n* call 0300 303 0642\r\n* 8am to 5pm Monday to Friday (except public holidays) \r\n\r\n**Social security and child support**\r\n\r\n* call 0300 123 1142 \r\n* 8.30am to 5pm Monday to Friday (except public holidays) \r\n\r\n**Immigration and asylum**\r\n\r\n* call 0300 123 1711 \r\n* 8.30am to 5pm Monday to Friday (except public holidays) \r\n\r\n**Tax and employment tribunals**\r\n\r\nUse the ['Find a court or tribunal' service](https://www.find-court-tribunal.service.gov.uk/services/money/service-areas/update) to find out how to tell HMCTS about a change to your case.\r\n\r\n**If you don't know the service you need**\r\n\r\nIf you don't know which service you need, you can:\r\n\r\n* [use the 'Find a court or tribunal' service](https://www.find-court-tribunal.service.gov.uk/services/update) to find the right contact number for your query\r\n* reply directly to an email you've received from us about your case",
+  "heading": "Contact details for HMCTS services",
+  "show": {
+    "identifier": "ServiceType",
+    "operator": "is",
+    "value": "other-query"
+  },
+  "url": "exit-other-query"
+}
