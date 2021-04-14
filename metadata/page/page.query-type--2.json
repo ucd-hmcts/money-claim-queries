@@ -109,7 +109,22 @@
         }
       ],
       "legend": "What do you need to ask about?",
-      "name": "QueryTypeClaimant"
+      "name": "QueryTypeClaimant",
+      "show": {
+        "conditionsType": "exactly",
+        "exactly": [
+          {
+            "identifier": "ApplicantType",
+            "operator": "is",
+            "value": "claimant"
+          },
+          {
+            "identifier": "ApplicantType",
+            "operator": "is",
+            "value": "representing-claimant"
+          }
+        ]
+      }
     }
   ],
   "heading": "About your query",
