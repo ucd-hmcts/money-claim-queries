@@ -6,7 +6,7 @@
   "show": {
     "identifier": "NewOrExistingClaim",
     "operator": "is",
-    "value": "existing-claim"
+    "value": "new-claim"
   },
   "url": "exit-start-new"
 }

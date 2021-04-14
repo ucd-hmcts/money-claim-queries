@@ -30,7 +30,22 @@
         }
       ],
       "legend": "Have you already submitted a money claim?",
-      "name": "NewOrExistingClaim"
+      "name": "NewOrExistingClaim",
+      "show": {
+        "conditionsType": "exactly",
+        "exactly": [
+          {
+            "identifier": "ApplicantType",
+            "operator": "is",
+            "value": "representing-claimant"
+          },
+          {
+            "identifier": "ApplicantType",
+            "operator": "is",
+            "value": "claimant"
+          }
+        ]
+      }
     }
   ],
   "show": {
