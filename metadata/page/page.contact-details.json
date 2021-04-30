@@ -19,7 +19,22 @@
           "_id": "page.contact-details--fieldset--text.auto_name__11",
           "_type": "text",
           "label": "First name",
-          "name": "ApplicantFirstName"
+          "name": "ApplicantFirstName",
+          "show": {
+            "conditionsType": "exactly",
+            "exactly": [
+              {
+                "identifier": "ApplicantType",
+                "operator": "is",
+                "value": "representing-claimant"
+              },
+              {
+                "identifier": "ApplicantType",
+                "operator": "is",
+                "value": "representing-defendant"
+              }
+            ]
+          }
         },
         {
           "$component": true,
@@ -29,7 +44,22 @@
           "_id": "page.contact-details--fieldset--text.auto_name__10",
           "_type": "text",
           "label": "Last name",
-          "name": "ApplicantLastName"
+          "name": "ApplicantLastName",
+          "show": {
+            "conditionsType": "exactly",
+            "exactly": [
+              {
+                "identifier": "ApplicantType",
+                "operator": "is",
+                "value": "representing-claimant"
+              },
+              {
+                "identifier": "ApplicantType",
+                "operator": "is",
+                "value": "representing-defendant"
+              }
+            ]
+          }
         },
         {
           "$component": true,
@@ -40,7 +70,22 @@
           "_type": "email",
           "hint": "We'll only use this to contact you about your query",
           "label": "Your email",
-          "name": "ContactEmail"
+          "name": "ApplicantEmail",
+          "show": {
+            "conditionsType": "exactly",
+            "exactly": [
+              {
+                "identifier": "ApplicantType",
+                "operator": "is",
+                "value": "representing-claimant"
+              },
+              {
+                "identifier": "ApplicantType",
+                "operator": "is",
+                "value": "representing-defendant"
+              }
+            ]
+          }
         },
         {
           "$component": true,
@@ -51,7 +96,22 @@
           "_type": "number",
           "hint": "We may be able to resolve your query more quickly if we can call you",
           "label": "Phone number (optional)",
-          "name": "ContactPhone",
+          "name": "ApplicantPhone",
+          "show": {
+            "conditionsType": "exactly",
+            "exactly": [
+              {
+                "identifier": "ApplicantType",
+                "operator": "is",
+                "value": "representing-claimant"
+              },
+              {
+                "identifier": "ApplicantType",
+                "operator": "is",
+                "value": "representing-defendant"
+              }
+            ]
+          },
           "validation": {
             "required": false
           }
@@ -73,6 +133,92 @@
                 "identifier": "ApplicantType",
                 "operator": "is",
                 "value": "representing-defendant"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "page.contact-details--fieldset--text.auto_name__1",
+          "_type": "text",
+          "label": "First name",
+          "name": "Applicant1FirstName",
+          "show": {
+            "conditionsType": "exactly",
+            "exactly": [
+              {
+                "identifier": "ApplicantType",
+                "operator": "is",
+                "value": "claimant"
+              },
+              {
+                "identifier": "ApplicantType",
+                "operator": "is",
+                "value": "defendant"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "page.contact-details--fieldset--text.auto_name__1--2",
+          "_type": "text",
+          "label": "Last name",
+          "name": "Applicant1LastName",
+          "show": {
+            "conditionsType": "exactly",
+            "exactly": [
+              {
+                "identifier": "ApplicantType",
+                "operator": "is",
+                "value": "claimant"
+              },
+              {
+                "identifier": "ApplicantType",
+                "operator": "is",
+                "value": "defendant"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "page.contact-details--fieldset--email.auto_name__1",
+          "_type": "email",
+          "hint": "We'll only use this to contact you about your query",
+          "label": "Your email",
+          "name": "Applicant1Email",
+          "show": {
+            "conditionsType": "exactly",
+            "exactly": [
+              {
+                "identifier": "ApplicantType",
+                "operator": "is",
+                "value": "claimant"
+              },
+              {
+                "identifier": "ApplicantType",
+                "operator": "is",
+                "value": "defendant"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "page.contact-details--fieldset--number.auto_name__1",
+          "_type": "number",
+          "hint": "We may be able to resolve your query more quickly if we can call you",
+          "label": "Your phone number (optional)",
+          "name": "Applicant1Phone",
+          "show": {
+            "conditionsType": "exactly",
+            "exactly": [
+              {
+                "identifier": "ApplicantType",
+                "operator": "is",
+                "value": "claimant"
+              },
+              {
+                "identifier": "ApplicantType",
+                "operator": "is",
+                "value": "defendant"
               }
             ]
           }

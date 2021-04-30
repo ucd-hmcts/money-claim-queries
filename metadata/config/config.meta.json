@@ -1,0 +1,24 @@
+{
+  "_id": "config.meta",
+  "_type": "config.meta",
+  "items": [
+    {
+      "_id": "config.meta--link",
+      "_type": "link",
+      "href": "https://www.gov.uk/help/cookies",
+      "text": "Cookies"
+    },
+    {
+      "_id": "config.meta--link--2",
+      "_type": "link",
+      "href": "https://www.gov.uk/government/publications/privacy-notice-for-civil-court-forms/privacy-notice-for-civil-court-forms",
+      "text": "Privacy"
+    },
+    {
+      "_id": "config.meta--link--4",
+      "_type": "link",
+      "href": "/accessibility",
+      "text": "Accessibility"
+    }
+  ]
+}
