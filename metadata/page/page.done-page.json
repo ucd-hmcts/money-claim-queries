@@ -1,7 +1,7 @@
 {
   "_id": "page.done-page",
   "_type": "page.confirmation",
-  "body": "# What happens next\r\n\r\nSomeone from HMCTS will contact you within 10 working days using the email address or phone number you provided.",
+  "body": "# What happens next\r\n\r\nSomeone from HMCTS will contact you within 7 days using the email address or phone number you provided. Please give us time to respond before contacting us again.",
   "heading": "Thank you for your query",
   "lede": "We've sent it to HM Courts and Tribunals Service",
   "url": "done-page"

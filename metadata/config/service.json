@@ -2,6 +2,9 @@
   "_id": "service",
   "_isa": "@ministryofjustice/fb-components=>service",
   "_type": "config.service",
+  "attachUserSubmission": true,
+  "emailInputNameUser": "Applicant1Email",
+  "emailSubjectUser": "Your query to HM Courts and Tribunals Service",
   "name": "Contact HMCTS about a money claim",
   "phaseText": "This is a prototype service"
 }

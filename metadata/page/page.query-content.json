@@ -5,7 +5,7 @@
     {
       "_id": "page.query-content--textarea.auto_name__9",
       "_type": "textarea",
-      "hint": "Give as much detail as you can, for example dates of any correspondence you've received from us",
+      "hint": "Give as much detail as you can about your query. If you've given us a claim number, we'll already have information about your case on record.",
       "label": "Your query",
       "name": "MessageContent"
     }

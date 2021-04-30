@@ -13,7 +13,7 @@
             "_id": "page.new-or-existing--radios.auto_name__6--radio.auto_value__8--text.auto_name__7",
             "_type": "text",
             "hint": "For example, OCM1234ABCD",
-            "label": "Enter your case reference number",
+            "label": "Enter your claim number",
             "name": "CaseReference",
             "validation": {
               "required": false
