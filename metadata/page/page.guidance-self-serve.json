@@ -1,66 +1,36 @@
 {
   "_id": "page.guidance-self-serve",
   "_type": "page.content",
+  "body": "## If you're waiting for the defendant to respond\r\n\r\nThe defendant must respond to your claim by 4pm on the day specified. \r\n\r\n[Sign in to the 'Money claims' service](https://www.moneyclaims.service.gov.uk) to see their response, or if they have asked for extra time to respond (this can be up to 14 days).\r\n\r\nYou'll need your email address and the password you created when you created your account. You can [request a new password](https://hmcts-access.service.gov.uk/reset/forgotpassword) if you need to.\r\n\r\n## If you've applied for judgement\r\n\r\nYou'll get a judgement letter telling you the outcome and what to do next. This information won't be available through the 'Money claims' service.",
   "components": [
     {
-      "_id": "page.guidance-self-serve--content",
-      "_type": "content",
-      "html": "# How to get an update on progress\r\n\r\nTo get an update on your claim or progress it, [sign in to the 'Money claims' service](https://www.moneyclaims.service.gov.uk) using your email address and the password you created when you created your account.\r\n\r\nYou can [request a new password](https://hmcts-access.service.gov.uk/reset/forgotpassword) if you need to.",
-      "show": {
-        "conditionsType": "exactly",
-        "exactly": [
-          {
-            "identifier": "ApplicantType",
-            "operator": "is",
-            "value": "claimant"
-          },
-          {
-            "identifier": "ApplicantType",
-            "operator": "is",
-            "value": "representing-claimant"
-          }
-        ]
-      }
-    },
-    {
-      "_id": "page.guidance-self-serve--content--2",
-      "_type": "content",
-      "html": "# How to respond to a money claim made against you\r\n\r\n**If you choose not to challenge the claim**\r\n\r\nYou should pay the full amount directly to the person who made the claim. You don't need to use the 'Money claims' service to do this.\r\n\r\n**If you want to challenge the claim**\r\n\r\n[Sign in to the 'Money claims' service](https://www.gov.uk/respond-money-claim) to:\r\n\r\n* ask for more time to respond\r\n* offer to pay a lesser amount\r\n* dispute some or all of the claim\r\n* dispute the claim and make a counter-claim\r\n\r\nYou'll need your claim number and security code from the notice you received. You may also have to pay a fee. ",
-      "show": {
-        "conditionsType": "exactly",
-        "exactly": [
-          {
-            "identifier": "ApplicantType",
-            "operator": "is",
-            "value": "defendant"
-          },
-          {
-            "identifier": "ApplicantType",
-            "operator": "is",
-            "value": "representing-defendant"
-          }
-        ]
-      }
-    },
-    {
+      "$component": true,
+      "$content": true,
+      "$definition": true,
       "_id": "page.guidance-self-serve--content--3",
       "_type": "content",
-      "html": "If this doesn't answer your query, you should continue and submit the form."
+      "html": "If this doesn't answer your query, you can continue and submit this form."
     }
   ],
-  "heading": "Guidance on money claims",
+  "heading": "Get an update on progress with your money claim",
+  "lede": "Sign in to the money claims service to get an update on progress or find out if the defendant has responded.",
   "show": {
     "conditionsType": "exactly",
     "exactly": [
       {
-        "identifier": "QueryTypeDefendant",
+        "0": {
+          "identifier": "QueryTypeClaimant",
+          "operator": "is",
+          "value": "progress-update"
+        },
+        "identifier": "QueryTypeClaimant",
         "operator": "is",
         "value": "progress-update"
       },
       {
-        "identifier": "QueryTypeDefendant",
+        "identifier": "QueryTypeClaimant",
         "operator": "is",
-        "value": "how-to-respond"
+        "value": "claimant-other"
       }
     ]
   },
