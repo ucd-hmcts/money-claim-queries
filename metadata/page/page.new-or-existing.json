@@ -12,6 +12,11 @@
           "conditionalComponent": {
             "_id": "page.new-or-existing--radios.auto_name__6--radio.auto_value__8--text.auto_name__7",
             "_type": "text",
+            "errors": {
+              "pattern": {
+                "any": "This doesn't look like a money claim number. Please re-enter it (removing spaces or hyphens) or leave this field blank to continue."
+              }
+            },
             "hint": "For example, OCM1234ABCD",
             "label": "Enter your claim number",
             "name": "CaseReference",
