@@ -1,11 +1,22 @@
 {
   "_id": "page.exit-mcol",
   "_type": "page.exit",
+  "body": "**For claims of up to £100,000**\r\n\r\n* Telephone: 0300 123 1057\r\n* Welsh language: 0300 303 5174\r\n* Email: [ccbc@justice.gov.uk](mailto:ccbc@justice.gov.uk)\r\n\r\nMonday to Friday, 8.30am to 5pm",
   "heading": "Money Claims Online (MCOL) queries",
   "show": {
-    "identifier": "CaseReference",
-    "operator": "includes",
-    "value": "Q"
+    "conditionsType": "exactly",
+    "exactly": [
+      {
+        "identifier": "CaseReference",
+        "operator": "includes",
+        "value": "Q"
+      },
+      {
+        "identifier": "CaseReference",
+        "operator": "includes",
+        "value": "q"
+      }
+    ]
   },
   "url": "exit-mcol"
 }
