@@ -1,0 +1,26 @@
+{
+  "_id": "page.exit-paper-whiplash-damages",
+  "_type": "page.exit",
+  "heading": "County court, paper, whiplash or damages claims",
+  "show": {
+    "conditionsType": "exactly",
+    "exactly": [
+      {
+        "identifier": "CaseReference",
+        "operator": "includes",
+        "value": "Y"
+      },
+      {
+        "identifier": "CaseReference",
+        "operator": "includes",
+        "value": "LR"
+      },
+      {
+        "identifier": "CaseReference",
+        "operator": "includes",
+        "value": "DC"
+      }
+    ]
+  },
+  "url": "exit-paper-whiplash-damages"
+}

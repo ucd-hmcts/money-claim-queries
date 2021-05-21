@@ -1,0 +1,11 @@
+{
+  "_id": "page.exit-mcol",
+  "_type": "page.exit",
+  "heading": "Money Claims Online (MCOL) queries",
+  "show": {
+    "identifier": "CaseReference",
+    "operator": "includes",
+    "value": "Q"
+  },
+  "url": "exit-mcol"
+}
