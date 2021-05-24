@@ -14,7 +14,7 @@
             "_type": "text",
             "hint": "For example, 123MC456",
             "label": "Your claim number",
-            "name": "CaseReference",
+            "name": "ClaimReference",
             "validation": {
               "required": false
             }

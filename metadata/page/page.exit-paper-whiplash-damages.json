@@ -8,32 +8,32 @@
     "conditionsType": "exactly",
     "exactly": [
       {
-        "identifier": "CaseReference",
+        "identifier": "ClaimReference",
         "operator": "includes",
         "value": "Y"
       },
       {
-        "identifier": "CaseReference",
+        "identifier": "ClaimReference",
         "operator": "includes",
         "value": "LR"
       },
       {
-        "identifier": "CaseReference",
+        "identifier": "ClaimReference",
         "operator": "includes",
         "value": "DC"
       },
       {
-        "identifier": "CaseReference",
+        "identifier": "ClaimReference",
         "operator": "includes",
         "value": "y"
       },
       {
-        "identifier": "CaseReference",
+        "identifier": "ClaimReference",
         "operator": "includes",
         "value": "lr"
       },
       {
-        "identifier": "CaseReference",
+        "identifier": "ClaimReference",
         "operator": "includes",
         "value": "dc"
       }
