@@ -14,19 +14,19 @@
             "_type": "text",
             "hint": "For example, 123MC456",
             "label": "Your claim number",
-            "name": "ClaimReference",
+            "name": "CaseReference",
             "validation": {
               "required": false
             }
           },
           "label": "Yes",
-          "value": "ClaimNumberYes"
+          "value": "CaseReferenceYes"
         },
         {
           "_id": "page.claim-number--radios.auto_name__1--radio.auto_value__2",
           "_type": "radio",
           "label": "No",
-          "value": "ClaimNumberNo"
+          "value": "CaseReferenceNo"
         }
       ],
       "legend": "Do you have a claim number?",

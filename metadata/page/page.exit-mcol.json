@@ -7,12 +7,12 @@
     "conditionsType": "exactly",
     "exactly": [
       {
-        "identifier": "ClaimReference",
+        "identifier": "CaseReference",
         "operator": "includes",
         "value": "Q"
       },
       {
-        "identifier": "ClaimReference",
+        "identifier": "CaseReference",
         "operator": "includes",
         "value": "q"
       }

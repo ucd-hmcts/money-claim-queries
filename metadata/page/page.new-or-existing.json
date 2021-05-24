@@ -34,7 +34,7 @@
               {
                 "identifier": "ClaimNumber",
                 "operator": "is",
-                "value": "ClaimNumberNo"
+                "value": "CaseReferenceNo"
               }
             ]
           },
@@ -48,7 +48,7 @@
               {
                 "identifier": "ClaimNumber",
                 "operator": "is",
-                "value": "ClaimNumberNo"
+                "value": "CaseReferenceNo"
               }
             ]
           }
