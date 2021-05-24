@@ -30,7 +30,7 @@
         }
       ],
       "legend": "Do you have a claim number?",
-      "name": "ClaimNumber"
+      "name": "SelectCaseReference"
     }
   ],
   "url": "claim-number"
