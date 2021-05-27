@@ -6,5 +6,6 @@
   "emailInputNameUser": "Applicant1Email",
   "emailSubjectUser": "Your query to HM Courts and Tribunals Service",
   "name": "Contact HMCTS about a money claim",
+  "phase": "none",
   "phaseText": "This is a prototype service"
 }
