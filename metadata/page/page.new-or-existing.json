@@ -60,32 +60,14 @@
     "conditionsType": "exactly",
     "exactly": [
       {
-        "all": [
-          {
-            "identifier": "ApplicantType",
-            "operator": "is",
-            "value": "claimant"
-          },
-          {
-            "identifier": "SelectCaseReference",
-            "operator": "is",
-            "value": "CaseReferenceNo"
-          }
-        ]
+        "identifier": "ApplicantType",
+        "operator": "is",
+        "value": "claimant"
       },
       {
-        "all": [
-          {
-            "identifier": "ApplicantType",
-            "operator": "is",
-            "value": "representing-claimant"
-          },
-          {
-            "identifier": "SelectCaseReference",
-            "operator": "is",
-            "value": "CaseReferenceNo"
-          }
-        ]
+        "identifier": "ApplicantType",
+        "operator": "is",
+        "value": "representing-claimant"
       }
     ]
   },
