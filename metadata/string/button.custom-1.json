@@ -1,0 +1,7 @@
+{
+  "_id": "button.custom-1",
+  "_type": "string",
+  "description": "Send your query to HMCTS",
+  "value": "Send query to HMCTS",
+  "value:cy": ""
+}
